@@ -416,7 +416,7 @@ const snowFall = (() => {
 document.addEventListener("DOMContentLoaded", snowFall.init);
 
 // Setup End Date for Countdown
-let launchDate = new Date("Oct 12, 2023 12:00:00").getTime();
+let launchDate = new Date("Oct 12, 2024 12:00:00").getTime();
 
 // Setup Timer to tick every 1 second
 let timer = setInterval(tick, 1000);
